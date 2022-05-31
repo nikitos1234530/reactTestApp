@@ -2,7 +2,7 @@
   "name": "react_test",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://nikitos1234530.github.io/reactTestApp",
+  "homepage": "https://nikitos1234530.github.io/reactTestApp/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
