@@ -1,0 +1,155 @@
+.checklist {
+  margin-top: 180px;
+  display: flex;
+}
+
+.checklist-left-block {
+  background: #eafc9c url('../../../img/Saly-37.png') 79% 100% no-repeat;
+  padding: 89px 151px 292px 81px;
+  border-radius: 60px;
+  width: 50%;
+}
+
+.checklist-left-block h3 {
+  font-size: 76px;
+  line-height: 112px;
+}
+
+.checklist-right-block {
+  background: #fff;
+  border-radius: 60px;
+  width: 50%;
+  padding: 49px 93px 49px 92px;
+}
+
+.form-inputs {
+  height: 100%;
+  position: relative;
+}
+.form-inputs input.error {
+  border-color: red;
+}
+
+/* .form,
+span {
+  display: none;
+  font-size: 12px;
+  color: red;
+} */
+
+.checklist-right-block label {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+.checklist-right-block input {
+  font-family: 'Montserrat';
+  border-radius: 60px;
+  border-color: black;
+  width: 100%;
+  height: 52px;
+  font-size: 16px;
+  padding: 0 20px;
+}
+
+.checklist-right-block input::placeholder {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.checklist-right-block select {
+  border: 2px solid black;
+  font-family: 'Montserrat';
+  border-radius: 60px;
+  border-color: black;
+  width: 100%;
+  height: 52px;
+  font-size: 16px;
+  padding: 0 40px 0 20px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.checklist__input {
+  margin-bottom: 19px;
+}
+
+.checklist__select {
+  position: relative;
+  margin-bottom: 19px;
+}
+
+.checklist__select::before {
+  content: '';
+  position: absolute;
+  top: 65%;
+  right: 30px;
+  transform: translateY(-50%);
+
+  display: block;
+
+  pointer-events: none;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 8px 7.5px 0 7.5px;
+  border-color: #000000 transparent transparent transparent;
+}
+
+.checklist-right-block p {
+  font-family: 'Montserrat';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #7a7a7a;
+  margin-bottom: 38px;
+}
+.checklist-right-block a {
+  color: #7a7a7a;
+  text-decoration: underline;
+}
+.form-inputs button {
+  background: #3943f5;
+  color: white;
+  width: 100%;
+  height: 90px;
+  font-size: 20px;
+  line-height: 29px;
+  border: none;
+  border-radius: 60px;
+}
+
+.form-inputs button:disabled {
+  background: #888df2;
+}
+
+.input-firstname{
+  display: block;
+  font-size: 12px;
+  color: rgb(255, 0, 0);
+}
+
+.input-lastname{
+  display: block;
+  font-size: 12px;
+  color: rgb(255, 0, 0);
+}
+
+.input-email{
+  display: block;
+  font-size: 12px;
+  color: rgb(255, 0, 0);
+}
+
+.input-date{
+  display: block;
+  font-size: 12px;
+  color: rgb(255, 0, 0);
+}

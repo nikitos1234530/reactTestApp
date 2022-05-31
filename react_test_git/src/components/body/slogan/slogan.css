@@ -1,0 +1,70 @@
+@media screen and (max-width: 1733px){
+  .slogan {
+    padding: 0px 45px 0px 47px;
+    background: url('../../../img/2finger.svg') 25% 100% no-repeat;
+  }
+  .slogan h2 {
+    color: white;
+    font-size: 110px;
+    line-height: 162px;
+    text-transform: uppercase;
+  }
+}
+@media screen and (max-width: 1537px){
+  .slogan {
+    padding: 0px 45px 0px 0px;
+    background: url('../../../img/2finger.svg') 25% 100% no-repeat;
+}
+.slogan p{
+  transform: none;
+}
+}
+@media screen and (max-width: 1413px){
+  .slogan {
+    padding: 0px 45px 0px 47px;
+    background: url('../../../img/2finger.svg') 25% 100% no-repeat;
+  }
+  .slogan h2 {
+    color: white;
+    font-size: 110px;
+    line-height: 162px;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (max-width: 1024px){
+  .slogan {
+    padding: 0px 77px 0px 47px;
+    background: black;
+  }
+}
+
+@media screen and (max-width: 1030px){
+  .slogan p {
+    transform: none; 
+ }
+}
+
+.slogan {
+  padding: 179px 142px 80px 143px;
+  background: url('../../../img/2finger.svg') 25% 100% no-repeat;
+}
+
+.slogan p {
+  transform: translate(391px, 10px);
+}
+.slogan h2 {
+  color: white;
+  font-size: 110px;
+  line-height: 162px;
+  text-transform: uppercase;
+  padding: 119px 294px 81px 90px;
+}
+
+.slogan h3 {
+  color: white;
+  font-size: 110px;
+  line-height: 162px;
+  text-transform: uppercase;
+  transform: translate(560px, -74px);
+}

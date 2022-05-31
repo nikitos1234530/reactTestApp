@@ -1,0 +1,125 @@
+@media screen and (max-width: 1030px){
+.header {
+    padding: 77px 40px;
+}
+.header-title {
+  margin-bottom: 18px;
+}
+.header-title h1 {
+  font-size: 80px;
+  line-height: 130%;
+}
+.header-title button {
+  padding: 24px;
+  transform: translate(30px, -24px);
+}
+.header-subtitle {
+  font-size: 30px;
+  line-height: 130%;
+  width: 100%;
+}
+}
+
+@media screen and (max-width: 768px){
+  .nav-list li {
+    padding-right: 16px;
+}
+.header-title h1 {
+  font-size: 50px;
+}
+.header-title button {
+  padding: 15px;
+  transform: translate(30px, -11px);
+}
+.header-subtitle {
+  font-size: 20px;
+}
+}
+
+@media screen and (max-width:650px){
+  .nav-list{
+    display: block;
+  }
+  .nav-list li {
+     padding-right: 0; 
+}
+.header-title button {
+  padding: 15px;
+  transform: translate(0px, -11px);
+  font-size: 13px;
+}
+}
+
+@media screen and (max-width: 425px){
+  .header-title h1 {
+    font-size: 30px;
+}
+.header-title button {
+  padding: 6px;
+  transform: translate(0px, -7px);
+  font-size: 13px;
+}
+}
+
+@media screen and (max-width:378px){
+  .header {
+    padding: 93px 13px;
+}
+}
+
+
+.header{
+  background: #fff url("../../img/Saly-8.svg") 100% 100% no-repeat;
+  border-radius: 60px;
+  padding: 67px 104px 80px;
+}
+
+.header-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list{
+  display: flex;
+  color: black;
+}
+
+.nav-list li{
+  padding-right: 41px;
+}
+
+.header-title{
+  margin-top: 101px;
+  margin-bottom: 181px;
+}
+
+
+.header-title h1{
+  font-size: 110px;
+  font-weight: 500;
+  line-height: 104.9%;
+  text-transform: uppercase;
+}
+
+
+.header-title button{
+  display:inline-block;
+  background: #3943F5;
+  border-radius: 90px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  width: 53%;
+  padding: 35px;
+  transform: translate(30px, -30px)
+}
+
+.header-subtitle{
+  font-size: 40px;
+  line-height: 59px;
+  font-weight: 400;
+  width: 63%;
+}
+
+

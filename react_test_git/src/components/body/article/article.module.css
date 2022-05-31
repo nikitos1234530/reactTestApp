@@ -1,0 +1,49 @@
+@media screen and (max-width: 1024px){
+  .article h2 {
+    padding: 110px 112px 70px 90px;
+    font-size: 60px;
+    line-height: 130%;
+}
+}
+
+@media screen and (max-width: 1030px){
+  .article h2 {
+    padding: 58px 112px 55px 90px;
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .article h2 {
+    padding: 30px 73px 29px 90px;
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 550px){
+  .article h2 {
+    padding: 30px 34px 1px 35px;
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 425px){
+  .article h2 {
+    padding: 30px 0px 29px 40px;
+    font-size: 20px;
+  }
+}
+
+.article h2 {
+  padding: 119px 294px 81px 90px;
+  font-size: 80px;
+  line-height: 118px;
+  color: white;
+  font-weight: 500;
+}
+
+.colorYellow {
+  color: #eafc9c;
+}
+
+.colorGrey {
+  color: #7a7a7a;
+}
